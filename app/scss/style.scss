@@ -1,0 +1,16 @@
+// добавлять кусочок кода vars
+@import 'vars';
+
+//добавлять шрифти 
+@import 'fonts';
+
+
+//стилі
+@import 'reset';
+
+// писати код для css
+@import 'global';
+
+
+//медія запроси для телефонів 
+@import 'media';
