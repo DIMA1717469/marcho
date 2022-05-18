@@ -8,7 +8,9 @@
   "author": "Dima Kurylenko",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/ui": "^4.0.27",
     "browser-sync": "^2.27.9",
+    "fancybox": "^3.0.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
@@ -21,6 +23,7 @@
     "sass": "^1.51.0"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "ansi-colors": "^1.1.0",
     "ansi-gray": "^0.1.1",
     "ansi-regex": "^2.1.1",
