@@ -3,45 +3,51 @@ $default:#8d8d8d;
 $title:#29282d;
 $bg:#f6f6f6;
 
-%quicksand-400{
-   font-family: 'Quicksand-Regular',sans-serif;
-   font-weight: 400;
+%quicksand-400 {
+  font-family: 'Quicksand-Regular', sans-serif;
+  font-weight: 400;
 }
+
 %quicksand-500 {
-  font-family: 'Quicksand-Medium',sans-serif;
+  font-family: 'Quicksand-Medium', sans-serif;
   font-weight: 500;
 }
+
 %roboto-400 {
-   font-family: 'Roboto-Regular',sans-serif;
-   font-weight: 400;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-weight: 400;
 }
+
 %roboto-700 {
-   font-family: 'Roboto-Bold',sans-serif;
-   font-weight: 700;
+  font-family: 'Roboto-Bold', sans-serif;
+  font-weight: 700;
 }
 
 
-%btn{
-   padding: 12px 26px;
-  text-transform:uppercase;
-  color:#fff;
-  background-color:$accent;
-   @extend %roboto-400;
-   box-shadow: 0 7px 20px 0px rgba(255, 17, 48, 0.3);
+%btn {
+  padding: 12px 26px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: $accent;
+  @extend %roboto-400;
+  box-shadow: 0 7px 20px 0px rgba(255, 17, 48, 0.3);
+  cursor: pointer;
 }
 
- %checkbox-hidden{
-    width: 0px;
-    height: 0px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, );
-    position: absolute;
- }
+%checkbox-hidden,
+%radio-hidden {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  clip: rect(auto, 0, auto, 0);
+  position: absolute;
+}
 
 
 @function max($numbers...) {
   @return m#{a}x(#{$numbers});
 }
+
 @function min($numbers...) {
   @return m#{i}n(#{$numders});
 }
