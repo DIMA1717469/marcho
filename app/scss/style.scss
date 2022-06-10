@@ -973,6 +973,7 @@
     margin-bottom: 40px;
     @extend %roboto-700;
     font-size: 48px;
+    line-height: 52px;
   }
 
   &__text {
@@ -1000,6 +1001,9 @@
   &__filters {
     width: 370px;
     margin-right: 30px;
+  }
+   &__filter-btn{
+      display: none;
   }
 }
 
@@ -1967,7 +1971,7 @@
   }
 
   &__img {
-    min-width: 750px;
+    max-width: 750px;
     height: 450px;
     object-fit: cover;
     display: block;

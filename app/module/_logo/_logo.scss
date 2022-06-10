@@ -58,3 +58,17 @@
     margin-bottom: 25px;
   }
 }
+
+@media (max-width: 450px){
+  .top__container{
+    padding: 120px 51px;
+  }
+}
+
+@media (max-width: 375px){
+  .modal{
+    &__links{
+      margin: 0 20px;
+    }
+}
+}
