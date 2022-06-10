@@ -1,0 +1,23 @@
+// добавлять кусочок кода vars
+@import 'vars';
+
+//добавлять шрифти 
+@import 'fonst';
+
+//стилі
+@import 'reset';
+
+//бібліотеки
+@import 'libs';
+
+// писати код для css
+@import 'global';
+
+@import '../module/_header/_header';
+@import '../module/_footer/_footer';
+@import '../module/_top-slider/_top-slider';
+@import '../module/_categories-info/_categories-info';
+@import '../module/_video-fashion/_video-fashion';
+@import '../module/_product/_product';
+@import '../module/_promo/_promo';
+@import '../module/_blog/_blog';
